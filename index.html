@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabreen Pharmacy</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Soabreen Pharmacy Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#sections">Sections</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="login-btn">
+            <a href="login.html">Log In</a>
+        </div>
+    </nav>
+
+
+    <section id="home">
+        <h2>Welcome to Sabreen Pharmacy</h2>
+        <p>Your health is our priority.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We provide a wide range of pharmaceutical products and healthcare services.</p>
+    </section>
+
+    <section id="sections">
+        <h2>Sections</h2>
+        <div class="section-icons">
+            <div class="icon">
+               <a href="medicine.html"><img src="img/medicines.png" alt="Medicines"></a> 
+              <p>Medicines</p>
+            </div>
+            <div class="icon">
+                <a href="babyCare.html"><img src="img/baby-care.png" alt="Baby Care"></a>
+               <p>Baby Care</p>
+            </div>
+            <div class="icon">
+                <a href="#"><img src="img/oral-care.jpg" alt="Oral Care"></a>
+               <p>Oral Care</p>
+            </div>
+            
+            <div class="icon">
+               <a href="hairCare.html"><img src="img/hair-care.webp" alt="Hair Care"> </a> 
+              <p>Hair Care</p>
+            </div>
+            <div class="icon">
+                <a href="skinCare.html"><img src="img/skin-care.jpg" alt="Skin Care"></a>
+                <p>Skin Care</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sabreen Pharmacy. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

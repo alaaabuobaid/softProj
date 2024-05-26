@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00a0d2;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.login-btn a {
+    text-decoration: none;
+    color: white;
+    background-color: #007bb5;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.medicine-item {
+    border: 1px solid #ddd;
+    padding: 50px;
+    margin:auto;
+    display: inline-block;
+}
+.medicine-item img{
+    width:300px;
+    height: 300px;
+}
+
+.buy-button {
+    background-color:#00a2d1;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color:#00a2d1;
+}
